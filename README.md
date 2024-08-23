@@ -1,2 +1,2 @@
 # HelloWorldCalc
-Basic Calculator
+Basic commend line Calculator
