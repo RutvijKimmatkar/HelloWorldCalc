@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Xml.XPath;
 using System.Linq.Expressions;
 using System.Collections;
+using System;
 
 class Program
 {
@@ -86,7 +87,7 @@ class Program
 
             continue;
         }
-            switch(operation)
+            switch(Convert.ToInt32(operation))
             {
                 case 1:
                     Console.WriteLine("Selected Addition");
@@ -102,7 +103,7 @@ class Program
                     break;
             }
 
-        switch(operation)
+        switch(Convert.ToInt32(operation))
         {
             case 1:
             case 2:
@@ -120,7 +121,7 @@ class Program
                     Console.WriteLine("Enter a valid number.");
                     continue;
                 }
-                switch(operation)
+                switch(Convert.ToInt32(operation))
                 {
                     case 1:
                         //Console.WriteLine("Selected Addition");
